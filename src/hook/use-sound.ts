@@ -11,6 +11,7 @@ type audioActionType = {
 type OptionProp = {
   onEnded?: (action: audioActionType) => void;
   loop?: boolean;
+  
 };
 
 export const useSound = (filePath: string, options?: OptionProp) => {
