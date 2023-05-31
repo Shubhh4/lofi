@@ -10,7 +10,7 @@ type audioActionType = {
 };
 type OptionProp = {
   onEnded?: (action: audioActionType) => void;
-  loop?: booleans;
+  loop?: boolean;
   
 };
 
